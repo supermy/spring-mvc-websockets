@@ -1,4 +1,4 @@
-package de.kimrudolph.tutorials.configuration;
+package com.bonc.realtime.configuration;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -17,7 +17,7 @@ public class WebAppInitializer implements WebApplicationInitializer {
 
         final AnnotationConfigWebApplicationContext root = new AnnotationConfigWebApplicationContext();
 
-        root.scan("de.kimrudolph.tutorials");
+        root.scan("com.bonc.realtime");
 
         context.addListener(new ContextLoaderListener(root));
 

@@ -1,4 +1,4 @@
-package de.kimrudolph.tutorials.utils;
+package com.bonc.realtime.utils;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package de.kimrudolph.tutorials.configuration;
+package com.bonc.realtime.configuration;
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -20,6 +20,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         throws Exception {
         auth
             .inMemoryAuthentication()
-            .withUser("user").password("password");
+            .withUser("bonc").password("bonc1qazse4");
     }
 }

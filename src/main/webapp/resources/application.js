@@ -42,7 +42,7 @@ $('#randomDataChart').highcharts({
 var socket = new SockJS('/spring-mvc-websockets/random');
 var client = Stomp.over(socket);
 
-client.connect('user', 'password', function(frame) {
+client.connect('bonc', 'bonc1qazse4', function(frame) {
 
   client.subscribe("/data", function(message) {
     var point = [ (new Date()).getTime(), parseInt(message.body) ];
